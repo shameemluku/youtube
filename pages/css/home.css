@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #181818;
+    font-family: "Roboto","Arial",sans-serif;
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #181818;
+    border-radius: 5px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+table{
+    width: 90%;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+td{
+    padding: 5px;
+}
+.test{
+    margin-top: 50px;
+}
+tr{
+    margin-top: 50px;
+}
+.title{
+    margin-top: 10px;
+}
+.title h3{
+    color: aliceblue;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 500;
+    max-height: 4rem;
+}
+.thumb{
+    width: 300px;
+    height: 160px;
+}
+.proImage{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-right: 15px;
+}
+.desc{
+    color: rgb(121, 121, 121);
+    margin-left: 55px;
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    text-decoration: none;
+}
+.views{
+    color: rgb(121, 121, 121);
+    margin-left: 55px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.cardLink{
+    text-decoration: none;
+}
+
+ .container{
+    position:fixed ;
+    width: 100%;
+    height: 55px;
+    background-color: #202020;
+    margin-top: -20px;
+    border-top: 1px solid rgb(66, 66, 66);
+    border-bottom: 1px solid rgb(66, 66, 66);
+} 
+
+div.scrollmenu {
+    background-color: #202020;;
+    overflow: auto;
+    height: 100%;
+    white-space: nowrap;
+    -ms-overflow-style: none; 
+      scrollbar-width: none; 
+    margin-left: 20px;
+  }
+  
+  div.scrollmenu::-webkit-scrollbar {
+      display: none; 
+  }
+  
+
+
+.scrollmenu a{
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(32 32 32);
+    text-decoration: none;
+}
+
+.filtBtn{
+    width: fit-content;
+    padding-top: 6px;
+    padding-bottom: 10px;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 32px;
+    background-color: #373737;
+    border-radius: 16px;
+    border: 0.02px solid #4b4b4b;
+}
+
+.filtBtn p{
+    background: none;
+    color: aliceblue;
+    font-size: 15px;
+}
+  
+.filtBtn:hover {
+    background-color: #777;
+} 
+
+.loading{
+    display: flex;
+    justify-content: center;
+}
+.loading img{
+    width: 35px;
+    height: 35px;
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+.minnal:hover{
+    content:url("../pics/thumbnails/minnal.webp");
+}
+.hack:hover{
+    content:url("../pics/thumbnails/hackgif.webp");
+}
+.cross:hover{
+    content:url("../pics/thumbnails/crossgif.webp");
+}
+.pling:hover{
+    content:url("../pics/thumbnails/plingif.webp");
+}
+.unbox:hover{
+    content:url("../pics/thumbnails/unboxgif.webp");
+}
+.bean:hover{
+    content:url("../pics/thumbnails/beangif.webp");
+}
+.elon:hover{
+    content:url("../pics/thumbnails/elongif.webp");
+}
+.spider:hover{
+    content:url("../pics/thumbnails/spidergif.webp");
+}
+.string:hover{
+    content:url("../pics/thumbnails/stringgif.webp");
+}
+.quand:hover{
+    content:url("../pics/thumbnails/quantumgif.webp");
+}
