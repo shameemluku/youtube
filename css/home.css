@@ -146,32 +146,32 @@ div.scrollmenu {
     margin-top: 30px;
 }
 .minnal:hover{
-    content:url("/pics/thumbnails/minnal.webp");
+    content:url("../pics/thumbnails/minnal.webp");
 }
 .hack:hover{
-    content:url("/pics/thumbnails/hackgif.webp");
+    content:url("../pics/thumbnails/hackgif.webp");
 }
 .cross:hover{
-    content:url("/pics/thumbnails/crossgif.webp");
+    content:url("../pics/thumbnails/crossgif.webp");
 }
 .pling:hover{
-    content:url("/pics/thumbnails/plingif.webp");
+    content:url("../pics/thumbnails/plingif.webp");
 }
 .unbox:hover{
-    content:url("/pics/thumbnails/unboxgif.webp");
+    content:url("../pics/thumbnails/unboxgif.webp");
 }
 .bean:hover{
-    content:url("/pics/thumbnails/beangif.webp");
+    content:url("../pics/thumbnails/beangif.webp");
 }
 .elon:hover{
-    content:url("/pics/thumbnails/elongif.webp");
+    content:url("../pics/thumbnails/elongif.webp");
 }
 .spider:hover{
-    content:url("/pics/thumbnails/spidergif.webp");
+    content:url("../pics/thumbnails/spidergif.webp");
 }
 .string:hover{
-    content:url("/pics/thumbnails/stringgif.webp");
+    content:url("../pics/thumbnails/stringgif.webp");
 }
 .quand:hover{
-    content:url("/pics/thumbnails/quantumgif.webp");
+    content:url("../pics/thumbnails/quantumgif.webp");
 }
